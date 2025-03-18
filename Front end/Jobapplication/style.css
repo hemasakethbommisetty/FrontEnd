@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightcoral;
+}
+#class{
+    height:500px;
+    width:500px;
+    background-color:white;
+    margin-top: 40px;
+    border-radius: 3%;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    }
+#class h2{
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+
+#horizantal{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+
+#input input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#horizantal2{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    
+}
+#input select{
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#address{
+    position: relative;
+    top: 60px;
+    right: 490px;
+}
+#address input{
+    width: 450px;
+    height: 70px;
+}
+#horizantal3{
+    display: flex;
+    gap: 40px;
+   position: relative;
+   
+   top: 180px;
+   right: 980px;
+    
+}
+#horizantal4{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 60px;
+    right: 505px;
+    
+}
+#horizantal4 input{
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+button{
+    position: relative;
+    top: 70px;
+    right: 150px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10%;
+}

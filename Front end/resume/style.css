@@ -1,0 +1,58 @@
+*{
+  padding: 0px; /*universal selector*/
+  margin: 0px;
+  
+}
+
+#hi{
+  padding: 0px;
+}
+  
+  table {
+    border: 1px solid black;
+    background-color: white; /*type selector*/
+    margin-top: 15px;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  .section-header {
+    background-color: lightgray;  
+    font-weight: bold;
+    text-align: center;
+  }
+  #main
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;     /*id selector*/
+    margin-left: 50px;
+  }
+  #name{
+    text-align: left;
+  }
+  li,ol,ul{
+    list-style: none;
+  }
+  #hi{
+    margin-top: 10px;
+    width: 470px;
+    height: 50px;
+    margin-left: 556px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  #hi h2{
+    position: relative; /*group selector*/
+    top: 10px;
+  }
+td, th {
+    text-align: center;
+}
+#saketh{
+  margin-left: 300px;
+}
